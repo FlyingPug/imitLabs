@@ -1,0 +1,17 @@
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\bin\Debug\net6.0-windows\lab8.1.exe
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\bin\Debug\net6.0-windows\lab8.1.deps.json
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\bin\Debug\net6.0-windows\lab8.1.runtimeconfig.json
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\bin\Debug\net6.0-windows\lab8.1.dll
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\bin\Debug\net6.0-windows\lab8.1.pdb
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8._1.Form1.resources
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8._1.Properties.Resources.resources
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.csproj.GenerateResource.cache
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.AssemblyInfoInputs.cache
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.AssemblyInfo.cs
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.csproj.CoreCompileInputs.cache
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.dll
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\refint\lab8.1.dll
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.pdb
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\lab8.1.genruntimeconfig.cache
+C:\College\my\3_course\2 семестр\имитационка\lab8.1\lab8.1\obj\Debug\net6.0-windows\ref\lab8.1.dll

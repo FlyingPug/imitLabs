@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImitLab8.1", "ImitLab8.1\ImitLab8.1.csproj", "{506A1659-6A6C-4543-907E-D4D4C9A6DBFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{506A1659-6A6C-4543-907E-D4D4C9A6DBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506A1659-6A6C-4543-907E-D4D4C9A6DBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506A1659-6A6C-4543-907E-D4D4C9A6DBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506A1659-6A6C-4543-907E-D4D4C9A6DBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58A03D2B-C285-41EE-B9C4-8D59C2847B74}
+	EndGlobalSection
+EndGlobal
