@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\College\\my\\3_course\\2 семестр\\имитационка\\Lab8.3\\Lab8.3\\Lab8.3.csproj": {}
+    "E:\\Вуз\\3 курс\\2 семестр\\imitLabs\\Lab8.3\\Lab8.3\\Lab8.3.csproj": {}
   },
   "projects": {
-    "C:\\College\\my\\3_course\\2 семестр\\имитационка\\Lab8.3\\Lab8.3\\Lab8.3.csproj": {
+    "E:\\Вуз\\3 курс\\2 семестр\\imitLabs\\Lab8.3\\Lab8.3\\Lab8.3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\College\\my\\3_course\\2 семестр\\имитационка\\Lab8.3\\Lab8.3\\Lab8.3.csproj",
+        "projectUniqueName": "E:\\Вуз\\3 курс\\2 семестр\\imitLabs\\Lab8.3\\Lab8.3\\Lab8.3.csproj",
         "projectName": "Lab8.3",
-        "projectPath": "C:\\College\\my\\3_course\\2 семестр\\имитационка\\Lab8.3\\Lab8.3\\Lab8.3.csproj",
+        "projectPath": "E:\\Вуз\\3 курс\\2 семестр\\imitLabs\\Lab8.3\\Lab8.3\\Lab8.3.csproj",
         "packagesPath": "C:\\Users\\Dron\\.nuget\\packages\\",
-        "outputPath": "C:\\College\\my\\3_course\\2 семестр\\имитационка\\Lab8.3\\Lab8.3\\obj\\",
+        "outputPath": "E:\\Вуз\\3 курс\\2 семестр\\imitLabs\\Lab8.3\\Lab8.3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Dron\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

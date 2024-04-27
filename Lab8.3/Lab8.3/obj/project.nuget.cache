@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RQ90gKpa/q3GtsieL32opINaUvh53lvW+Ppw/T1k+LNoVV5rbDYTzMd29XHboRo5XY3Kc3py2xMMdKWd82UaAA==",
+  "dgSpecHash": "5L94KiNmWDpFf3LNlOynYtT6cjvrLcrzys05RAJ6Osl8JpUW36DzahZwrV2GEEjnFu1XRMBExzvRVdcHym/HBg==",
   "success": true,
-  "projectFilePath": "C:\\College\\my\\3_course\\2 семестр\\имитационка\\Lab8.3\\Lab8.3\\Lab8.3.csproj",
+  "projectFilePath": "E:\\Вуз\\3 курс\\2 семестр\\imitLabs\\Lab8.3\\Lab8.3\\Lab8.3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dron\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
   ],
