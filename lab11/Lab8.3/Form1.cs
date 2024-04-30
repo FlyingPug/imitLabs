@@ -81,7 +81,7 @@ namespace Lab8._3
             double chiSquare = getChiSquare(statistic, probs, N);
             ChiSquare.Text = chiSquare.ToString();
 
-            int df = probs.Length - 1;
+            int df = N - 1;
             double tableValue = ChiSquared.InvCDF(df, 1 - alpha);
             bool isAccepted = chiSquare <= tableValue;
             HypRes.Text = isAccepted ? "Принимается" : "Отклоняется";

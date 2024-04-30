@@ -68,7 +68,7 @@ namespace Lab8._3
             }
             double mean = getMean(freqs);
             double var = getVar(freqs, mean);
-            Mean.Text = mean.ToString(); 
+            Mean.Text = mean.ToString();
             Dispersion.Text = var.ToString();
             double generalMean = getMean(probs);
             double generalVar = getVar(probs, generalMean);
@@ -82,7 +82,7 @@ namespace Lab8._3
 
             int df = probs.Length - 1;
             double tableValue = ChiSquared.InvCDF(df, 1 - alpha);
-            bool isAccepted = chiSquare <= tableValue ;
+            bool isAccepted = chiSquare <= tableValue;
             HypRes.Text = isAccepted ? "Принимается" : "Отклоняется";
         }
 
@@ -93,7 +93,7 @@ namespace Lab8._3
             for (int i = 0; i < observed.Length; i++)
             {
                 if (expected[i] > 0)
-                chiSquare += (observed[i] - (expected[i] * N)) * (observed[i] - (expected[i] * N)) / (expected[i] * N);
+                    chiSquare += (observed[i] - (expected[i] * N)) * (observed[i] - (expected[i] * N)) / (expected[i] * N);
             }
 
             return chiSquare;
@@ -102,7 +102,7 @@ namespace Lab8._3
         private double getVar(IList<double> freqs, double mean)
         {
             double variance = 0;
-            for(int i = 0; i < freqs.Count(); i++)
+            for (int i = 0; i < freqs.Count(); i++)
             {
                 variance += freqs[i] * i * i;
             }
@@ -141,6 +141,11 @@ namespace Lab8._3
         }
 
         private void prob1input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DataResult_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

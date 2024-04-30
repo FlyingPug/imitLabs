@@ -1,0 +1,17 @@
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\bin\Debug\net6.0-windows\lab14.exe
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\bin\Debug\net6.0-windows\lab14.deps.json
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\bin\Debug\net6.0-windows\lab14.runtimeconfig.json
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\bin\Debug\net6.0-windows\lab14.dll
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\bin\Debug\net6.0-windows\lab14.pdb
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.Form1.resources
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.csproj.GenerateResource.cache
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.GeneratedMSBuildEditorConfig.editorconfig
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.AssemblyInfoInputs.cache
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.AssemblyInfo.cs
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.csproj.CoreCompileInputs.cache
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.sourcelink.json
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.dll
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\refint\lab14.dll
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.pdb
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\lab14.genruntimeconfig.cache
+E:\Вуз\3 курс\2 семестр\imitLabs\lab14\lab14\obj\Debug\net6.0-windows\ref\lab14.dll

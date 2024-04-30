@@ -30,395 +30,385 @@ namespace Lab8._3
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.errLabel = new System.Windows.Forms.Label();
-            this.prob5input = new System.Windows.Forms.TextBox();
-            this.prob4input = new System.Windows.Forms.TextBox();
-            this.prob3input = new System.Windows.Forms.TextBox();
-            this.prob2input = new System.Windows.Forms.TextBox();
-            this.prob1input = new System.Windows.Forms.TextBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.DataResult = new System.Windows.Forms.DataGridView();
-            this.RF = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.Mean = new System.Windows.Forms.Label();
-            this.Dispersion = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.ChiSquare = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.REM = new System.Windows.Forms.Label();
-            this.REV = new System.Windows.Forms.Label();
-            this.HypRes = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DataResult)).BeginInit();
-            this.SuspendLayout();
+            ChartArea chartArea1 = new ChartArea();
+            Series series1 = new Series();
+            panel1 = new Panel();
+            errLabel = new Label();
+            prob5input = new TextBox();
+            prob4input = new TextBox();
+            prob3input = new TextBox();
+            prob2input = new TextBox();
+            prob1input = new TextBox();
+            numericUpDown1 = new NumericUpDown();
+            button1 = new Button();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            chart = new Chart();
+            DataResult = new DataGridView();
+            RF = new DataGridViewTextBoxColumn();
+            RE = new DataGridViewTextBoxColumn();
+            label7 = new Label();
+            label8 = new Label();
+            Mean = new Label();
+            Dispersion = new Label();
+            label10 = new Label();
+            label11 = new Label();
+            ChiSquare = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            REM = new Label();
+            REV = new Label();
+            HypRes = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)chart).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DataResult).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightBlue;
-            this.panel1.Controls.Add(this.errLabel);
-            this.panel1.Controls.Add(this.prob5input);
-            this.panel1.Controls.Add(this.prob4input);
-            this.panel1.Controls.Add(this.prob3input);
-            this.panel1.Controls.Add(this.prob2input);
-            this.panel1.Controls.Add(this.prob1input);
-            this.panel1.Controls.Add(this.numericUpDown1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(35, 28);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(204, 206);
-            this.panel1.TabIndex = 0;
+            panel1.BackColor = Color.LightBlue;
+            panel1.Controls.Add(errLabel);
+            panel1.Controls.Add(prob5input);
+            panel1.Controls.Add(prob4input);
+            panel1.Controls.Add(prob3input);
+            panel1.Controls.Add(prob2input);
+            panel1.Controls.Add(prob1input);
+            panel1.Controls.Add(numericUpDown1);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(35, 28);
+            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(204, 206);
+            panel1.TabIndex = 0;
             // 
             // errLabel
             // 
-            this.errLabel.AutoSize = true;
-            this.errLabel.ForeColor = System.Drawing.Color.Red;
-            this.errLabel.Location = new System.Drawing.Point(10, 160);
-            this.errLabel.Name = "errLabel";
-            this.errLabel.Size = new System.Drawing.Size(18, 15);
-            this.errLabel.TabIndex = 13;
-            this.errLabel.Text = "es";
-            this.errLabel.Visible = false;
+            errLabel.AutoSize = true;
+            errLabel.ForeColor = Color.Red;
+            errLabel.Location = new Point(10, 160);
+            errLabel.Name = "errLabel";
+            errLabel.Size = new Size(18, 15);
+            errLabel.TabIndex = 13;
+            errLabel.Text = "es";
+            errLabel.Visible = false;
             // 
             // prob5input
             // 
-            this.prob5input.Enabled = false;
-            this.prob5input.Location = new System.Drawing.Point(57, 115);
-            this.prob5input.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.prob5input.Name = "prob5input";
-            this.prob5input.Size = new System.Drawing.Size(56, 23);
-            this.prob5input.TabIndex = 12;
-            this.prob5input.Text = "0,6";
-            this.prob5input.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            prob5input.Enabled = false;
+            prob5input.Location = new Point(57, 115);
+            prob5input.Margin = new Padding(3, 2, 3, 2);
+            prob5input.Name = "prob5input";
+            prob5input.Size = new Size(56, 23);
+            prob5input.TabIndex = 12;
+            prob5input.Text = "0,6";
+            prob5input.TextChanged += textBox_TextChanged;
             // 
             // prob4input
             // 
-            this.prob4input.Location = new System.Drawing.Point(57, 89);
-            this.prob4input.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.prob4input.Name = "prob4input";
-            this.prob4input.Size = new System.Drawing.Size(56, 23);
-            this.prob4input.TabIndex = 11;
-            this.prob4input.Text = "0,1";
-            this.prob4input.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            prob4input.Location = new Point(57, 89);
+            prob4input.Margin = new Padding(3, 2, 3, 2);
+            prob4input.Name = "prob4input";
+            prob4input.Size = new Size(56, 23);
+            prob4input.TabIndex = 11;
+            prob4input.Text = "0,1";
+            prob4input.TextChanged += textBox_TextChanged;
             // 
             // prob3input
             // 
-            this.prob3input.Location = new System.Drawing.Point(57, 64);
-            this.prob3input.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.prob3input.Name = "prob3input";
-            this.prob3input.Size = new System.Drawing.Size(56, 23);
-            this.prob3input.TabIndex = 10;
-            this.prob3input.Text = "0,1";
-            this.prob3input.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            prob3input.Location = new Point(57, 64);
+            prob3input.Margin = new Padding(3, 2, 3, 2);
+            prob3input.Name = "prob3input";
+            prob3input.Size = new Size(56, 23);
+            prob3input.TabIndex = 10;
+            prob3input.Text = "0,1";
+            prob3input.TextChanged += textBox_TextChanged;
             // 
             // prob2input
             // 
-            this.prob2input.Location = new System.Drawing.Point(57, 38);
-            this.prob2input.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.prob2input.Name = "prob2input";
-            this.prob2input.Size = new System.Drawing.Size(56, 23);
-            this.prob2input.TabIndex = 9;
-            this.prob2input.Text = "0,2";
-            this.prob2input.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            prob2input.Location = new Point(57, 38);
+            prob2input.Margin = new Padding(3, 2, 3, 2);
+            prob2input.Name = "prob2input";
+            prob2input.Size = new Size(56, 23);
+            prob2input.TabIndex = 9;
+            prob2input.Text = "0,2";
+            prob2input.TextChanged += textBox_TextChanged;
             // 
             // prob1input
             // 
-            this.prob1input.Location = new System.Drawing.Point(57, 14);
-            this.prob1input.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.prob1input.Name = "prob1input";
-            this.prob1input.Size = new System.Drawing.Size(56, 23);
-            this.prob1input.TabIndex = 8;
-            this.prob1input.Text = "0";
-            this.prob1input.TextChanged += new System.EventHandler(this.textBox_TextChanged);
+            prob1input.Location = new Point(57, 14);
+            prob1input.Margin = new Padding(3, 2, 3, 2);
+            prob1input.Name = "prob1input";
+            prob1input.Size = new Size(56, 23);
+            prob1input.TabIndex = 8;
+            prob1input.Text = "0";
+            prob1input.TextChanged += textBox_TextChanged;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(118, 137);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(83, 23);
-            this.numericUpDown1.TabIndex = 7;
-            this.numericUpDown1.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
+            numericUpDown1.Location = new Point(118, 137);
+            numericUpDown1.Margin = new Padding(3, 2, 3, 2);
+            numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(83, 23);
+            numericUpDown1.TabIndex = 7;
+            numericUpDown1.Value = new decimal(new int[] { 100, 0, 0, 0 });
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(57, 182);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 22);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            button1.BackColor = Color.DeepSkyBlue;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(57, 182);
+            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(82, 22);
+            button1.TabIndex = 6;
+            button1.Text = "Start";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click_1;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(10, 137);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 15);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Number of trials";
+            label6.AutoSize = true;
+            label6.Location = new Point(10, 137);
+            label6.Name = "label6";
+            label6.Size = new Size(93, 15);
+            label6.TabIndex = 5;
+            label6.Text = "Number of trials";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 115);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Prob5";
+            label5.AutoSize = true;
+            label5.Location = new Point(10, 115);
+            label5.Name = "label5";
+            label5.Size = new Size(38, 15);
+            label5.TabIndex = 4;
+            label5.Text = "Prob5";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 92);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Prob4";
+            label4.AutoSize = true;
+            label4.Location = new Point(10, 92);
+            label4.Name = "label4";
+            label4.Size = new Size(38, 15);
+            label4.TabIndex = 3;
+            label4.Text = "Prob4";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 64);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Prob3";
+            label3.AutoSize = true;
+            label3.Location = new Point(10, 64);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 2;
+            label3.Text = "Prob3";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Prob2";
+            label2.AutoSize = true;
+            label2.Location = new Point(10, 38);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Prob2";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Prob1";
+            label1.AutoSize = true;
+            label1.Location = new Point(10, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Prob1";
             // 
             // chart
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart.ChartAreas.Add(chartArea1);
-            this.chart.Location = new System.Drawing.Point(295, 28);
-            this.chart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.chart.Name = "chart";
+            chart.ChartAreas.Add(chartArea1);
+            chart.Location = new Point(295, 28);
+            chart.Margin = new Padding(3, 2, 3, 2);
+            chart.Name = "chart";
             series1.ChartArea = "ChartArea1";
             series1.Name = "Series1";
-            this.chart.Series.Add(series1);
-            this.chart.Size = new System.Drawing.Size(380, 290);
-            this.chart.TabIndex = 14;
-            this.chart.Click += new System.EventHandler(this.chart_Click_1);
+            chart.Series.Add(series1);
+            chart.Size = new Size(380, 290);
+            chart.TabIndex = 14;
+            chart.Click += chart_Click_1;
             // 
             // DataResult
             // 
-            this.DataResult.AllowUserToAddRows = false;
-            this.DataResult.AllowUserToDeleteRows = false;
-            this.DataResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataResult.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.RF,
-            this.RE});
-            this.DataResult.Location = new System.Drawing.Point(35, 250);
-            this.DataResult.Name = "DataResult";
-            this.DataResult.ReadOnly = true;
-            this.DataResult.RowTemplate.Height = 25;
-            this.DataResult.Size = new System.Drawing.Size(204, 277);
-            this.DataResult.TabIndex = 15;
+            DataResult.AllowUserToAddRows = false;
+            DataResult.AllowUserToDeleteRows = false;
+            DataResult.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DataResult.Columns.AddRange(new DataGridViewColumn[] { RF, RE });
+            DataResult.Location = new Point(35, 250);
+            DataResult.Name = "DataResult";
+            DataResult.ReadOnly = true;
+            DataResult.RowTemplate.Height = 25;
+            DataResult.Size = new Size(204, 277);
+            DataResult.TabIndex = 15;
+            DataResult.CellContentClick += DataResult_CellContentClick;
             // 
             // RF
             // 
-            this.RF.HeaderText = "RF";
-            this.RF.Name = "RF";
-            this.RF.ReadOnly = true;
+            RF.HeaderText = "RF";
+            RF.Name = "RF";
+            RF.ReadOnly = true;
             // 
             // RE
             // 
-            this.RE.HeaderText = "RE";
-            this.RE.Name = "RE";
-            this.RE.ReadOnly = true;
+            RE.HeaderText = "RE";
+            RE.Name = "RE";
+            RE.ReadOnly = true;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(295, 353);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 15);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Выборочная средняя";
+            label7.AutoSize = true;
+            label7.Location = new Point(295, 353);
+            label7.Name = "label7";
+            label7.Size = new Size(124, 15);
+            label7.TabIndex = 14;
+            label7.Text = "Выборочная средняя";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(295, 385);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(138, 15);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Выборочная дисперсия";
+            label8.AutoSize = true;
+            label8.Location = new Point(295, 385);
+            label8.Name = "label8";
+            label8.Size = new Size(138, 15);
+            label8.TabIndex = 16;
+            label8.Text = "Выборочная дисперсия";
             // 
             // Mean
             // 
-            this.Mean.AutoSize = true;
-            this.Mean.Location = new System.Drawing.Point(425, 353);
-            this.Mean.Name = "Mean";
-            this.Mean.Size = new System.Drawing.Size(13, 15);
-            this.Mean.TabIndex = 17;
-            this.Mean.Text = "0";
+            Mean.AutoSize = true;
+            Mean.Location = new Point(425, 353);
+            Mean.Name = "Mean";
+            Mean.Size = new Size(13, 15);
+            Mean.TabIndex = 17;
+            Mean.Text = "0";
             // 
             // Dispersion
             // 
-            this.Dispersion.AutoSize = true;
-            this.Dispersion.Location = new System.Drawing.Point(425, 385);
-            this.Dispersion.Name = "Dispersion";
-            this.Dispersion.Size = new System.Drawing.Size(13, 15);
-            this.Dispersion.TabIndex = 18;
-            this.Dispersion.Text = "0";
+            Dispersion.AutoSize = true;
+            Dispersion.Location = new Point(425, 385);
+            Dispersion.Name = "Dispersion";
+            Dispersion.Size = new Size(13, 15);
+            Dispersion.TabIndex = 18;
+            Dispersion.Text = "0";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(295, 512);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(42, 15);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Вывод";
+            label10.AutoSize = true;
+            label10.Location = new Point(295, 512);
+            label10.Name = "label10";
+            label10.Size = new Size(42, 15);
+            label10.TabIndex = 20;
+            label10.Text = "Вывод";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(295, 483);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(72, 15);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Кси квадрат";
+            label11.AutoSize = true;
+            label11.Location = new Point(295, 483);
+            label11.Name = "label11";
+            label11.Size = new Size(72, 15);
+            label11.TabIndex = 21;
+            label11.Text = "Кси квадрат";
             // 
             // ChiSquare
             // 
-            this.ChiSquare.AutoSize = true;
-            this.ChiSquare.Location = new System.Drawing.Point(373, 483);
-            this.ChiSquare.Name = "ChiSquare";
-            this.ChiSquare.Size = new System.Drawing.Size(72, 15);
-            this.ChiSquare.TabIndex = 22;
-            this.ChiSquare.Text = "Кси квадрат";
+            ChiSquare.AutoSize = true;
+            ChiSquare.Location = new Point(373, 483);
+            ChiSquare.Name = "ChiSquare";
+            ChiSquare.Size = new Size(72, 15);
+            ChiSquare.TabIndex = 22;
+            ChiSquare.Text = "Кси квадрат";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(295, 415);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(215, 15);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "Относительная погрешность средняя";
+            label12.AutoSize = true;
+            label12.Location = new Point(295, 415);
+            label12.Name = "label12";
+            label12.Size = new Size(215, 15);
+            label12.TabIndex = 23;
+            label12.Text = "Относительная погрешность средняя";
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(295, 444);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(229, 15);
-            this.label13.TabIndex = 24;
-            this.label13.Text = "Относительная погрешность дисперсия";
+            label13.AutoSize = true;
+            label13.Location = new Point(295, 444);
+            label13.Name = "label13";
+            label13.Size = new Size(229, 15);
+            label13.TabIndex = 24;
+            label13.Text = "Относительная погрешность дисперсия";
             // 
             // REM
             // 
-            this.REM.AutoSize = true;
-            this.REM.Location = new System.Drawing.Point(516, 415);
-            this.REM.Name = "REM";
-            this.REM.Size = new System.Drawing.Size(13, 15);
-            this.REM.TabIndex = 25;
-            this.REM.Text = "0";
+            REM.AutoSize = true;
+            REM.Location = new Point(516, 415);
+            REM.Name = "REM";
+            REM.Size = new Size(13, 15);
+            REM.TabIndex = 25;
+            REM.Text = "0";
             // 
             // REV
             // 
-            this.REV.AutoSize = true;
-            this.REV.Location = new System.Drawing.Point(530, 444);
-            this.REV.Name = "REV";
-            this.REV.Size = new System.Drawing.Size(13, 15);
-            this.REV.TabIndex = 26;
-            this.REV.Text = "0";
+            REV.AutoSize = true;
+            REV.Location = new Point(530, 444);
+            REV.Name = "REV";
+            REV.Size = new Size(13, 15);
+            REV.TabIndex = 26;
+            REV.Text = "0";
             // 
             // HypRes
             // 
-            this.HypRes.AutoSize = true;
-            this.HypRes.Location = new System.Drawing.Point(343, 512);
-            this.HypRes.Name = "HypRes";
-            this.HypRes.Size = new System.Drawing.Size(42, 15);
-            this.HypRes.TabIndex = 27;
-            this.HypRes.Text = "Вывод";
+            HypRes.AutoSize = true;
+            HypRes.Location = new Point(343, 512);
+            HypRes.Name = "HypRes";
+            HypRes.Size = new Size(42, 15);
+            HypRes.TabIndex = 27;
+            HypRes.Text = "Вывод";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(700, 550);
-            this.Controls.Add(this.HypRes);
-            this.Controls.Add(this.REV);
-            this.Controls.Add(this.REM);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.ChiSquare);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.Dispersion);
-            this.Controls.Add(this.Mean);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.DataResult);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.chart);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DataResult)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(700, 550);
+            Controls.Add(HypRes);
+            Controls.Add(REV);
+            Controls.Add(REM);
+            Controls.Add(label13);
+            Controls.Add(label12);
+            Controls.Add(ChiSquare);
+            Controls.Add(label11);
+            Controls.Add(label10);
+            Controls.Add(Dispersion);
+            Controls.Add(Mean);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(DataResult);
+            Controls.Add(panel1);
+            Controls.Add(chart);
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "Form1";
+            Text = "Form1";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chart).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DataResult).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

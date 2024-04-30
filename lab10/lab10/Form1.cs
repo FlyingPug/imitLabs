@@ -9,7 +9,7 @@ namespace lab10
 
         private void PlayButton_Click(object sender, EventArgs e)
         {
-            Score.Text = $"{GetValue(20)} - {GetValue(5)}";
+            Score.Text = $"{GetValue(1)} - {GetValue(1)}";
         }
 
         private int GetValue(double lambda)
